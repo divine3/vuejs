@@ -1,6 +1,8 @@
-# iiclubv1
+# Basic vuejs project
 
-> webproject for iiclub organization
+> webproject showing how to display loading icon before showing component to the user.
+
+###created this project as an answer for SO https://stackoverflow.com/questions/48515455/vuejs-progressbar-on-data-fetching-before-navigating-to-route
 
 ## Build Setup
 
