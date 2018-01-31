@@ -3,9 +3,6 @@ import VueRouter from 'vue-router';
 import App from './App.vue';
 import {routes} from './routes';
 
-import Loading from './components/Loading.vue'; 
-
-Vue.component('loading-i', Loading);
 
 Vue.use(VueRouter);
 

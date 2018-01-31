@@ -7,7 +7,7 @@
 </template>
 
 <script>
-/* import Loading from './components/Loading.vue'; */
+import Loading from './components/Loading.vue';
 import Header from "./components/Header.vue";
 import Body from "./components/Body.vue";
     
@@ -15,7 +15,7 @@ export default {
   components : {
     "header-ii" : Header,
     "body-ii" : Body,
-    /* 'loading-i' : Loading */
+    'loading-i' : Loading
   },
   created(){
     console.log("App component created");
