@@ -1,6 +1,9 @@
 <template>
   <div id="loading" :style="loading_style">
-      <div class="text">{{loading_text}} <button @click="close">Close</button></div> 
+      <div class="text">{{loading_text}} 
+          <div class="loadinggear"></div>
+          <button @click="close">Close</button>
+        </div> 
   </div>
 </template>
 
@@ -42,5 +45,13 @@ export default {
     position: absolute;
     top: 50%;
     left: 50%;
+}
+
+#loading .loadinggear{
+    background-image: url(/public/images/loadinggear.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50px;
 }
 </style>
