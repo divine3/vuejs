@@ -43,8 +43,8 @@ export default {
 #loading .text{
     background-color: yellowgreen;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 40%;
+    left: 46%;
 }
 
 #loading .loadinggear{
